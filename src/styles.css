@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: source sans pro,sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #666;
+  line-height: 25px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow-x: hidden;
+}
+ .btn1 {
+  padding: 10px 30px;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  display: inline-block;
+}
+
+ .btn-common {
+  background-color: #00b4d9;
+  position: relative;
+  z-index: 1;
+}
+h2{
+  font-size: 38px;
+  font-weight: 700;
+  font-family: source sans pro,
+  sans-serif
+}
+h3{
+      font-size: 38px;
+      font-weight: 700;
+      font-family: source sans pro,sans-serif;
+}
+p{
+      font-weight: 400;
+      font-family: source sans pro,
+      sans-serif;
+      margin: 0;
+      font-size: 14px;
+}
+   ul {
+     list-style: outside none none;
+     margin: 0;
+     padding: 0;
+   }
+   a:hover{
+     text-decoration: none;
+   }

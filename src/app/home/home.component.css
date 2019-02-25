@@ -1,0 +1,98 @@
+.hero-area-bg {
+  background: url(/assets/img/hero-area.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  height: 700px;
+}
+
+#hero-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0c0808;
+  opacity: .6;
+}
+
+.contents {
+  margin-top: 15%;
+}
+.contents h5{
+    font-size: 50px;
+}
+.contents p{
+        font-size: 30px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 25px;
+}
+.script-font {
+  font-family: shadows into light, cursive;
+}
+.head-title{
+        color: #fff;
+        font-size: 80px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+
+#hero-area .contents .btn {
+  margin: 25px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+.social-icon li {
+  display: inline-block;
+}
+
+.social-icon li a {
+  color: #000;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 16px;
+  margin: 15px 6px 12px;
+  transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+}
+
+.social-icon li a {
+  color: black
+}
+
+.social-icon li a.facebook:hover {
+  background: #3b5998;
+}
+
+.social-icon li a.twitter:hover {
+  background: #1da1f2;
+}
+
+
+.social-icon li a.linkedin:hover {
+  color: blue;
+}
+
+
+.social-icon li a.instagram:hover {
+  background: #bb0000;
+}
+
+
+.social-icon li a.google:hover {
+  background: #bb0000;
+}

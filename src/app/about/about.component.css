@@ -1,0 +1,35 @@
+.profile-wrapper{
+    margin-top: 20%;
+}
+.profile-wrapper .btn1{
+        margin: 10px 10px 0 0;
+}
+.about-profile{
+        position: relative;
+        margin: 20px 0;
+}
+.img-thumb{
+        border: 8px solid #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+        margin: 20% 10% 0% -10%;
+}
+.img-thumb img{
+    width: 550px;
+    height: 550px;
+}
+
+.pro-title{
+        font-weight: 700;
+        color: #040404;
+        position: relative;
+        width: 120px;
+        display: inline-block;
+        margin-bottom: 5px;
+}
+.pro-title::after{
+        position: absolute;
+        content: ':';
+        color: #040404;
+        font-size: 14px;
+        left: 85px;
+}
